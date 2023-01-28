@@ -62,6 +62,7 @@ void no_of_set_bits(int bit){
    }
     cout<< count<< endl;
     cout<<__builtin_popcount(bit);// in built function for no of set bits
+    // for long long __builtin_popcountll(bit);  ------->>>> set bit count;
     cout<<endl;
         
 }
